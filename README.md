@@ -6,7 +6,7 @@ This project is an end-to-end time series forecasting and machine learning proje
 
 ## 📌 Project Overview & Business Problem
 * **Business Problem:** iyzico provides payment infrastructure for e-commerce companies, marketplaces, and individual users. The goal of this project is to accurately forecast the daily total transaction count (`Total_Transaction`) for each merchant (`merchant_id`) for the last 3 months of 2020.
-* **Model Performance:** Achieved a successful validation error rate of **20.89% SMAPE** using a LightGBM model optimized at the 313th iteration.
+* **Model Performance:** Achieved a successful validation error rate of **20.89% SMAPE** using a LightGBM model equipped with **Early Stopping** and optimized at the 313th iteration.
 
 ---
 
