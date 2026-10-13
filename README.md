@@ -41,7 +41,7 @@ The dataset contains historical transaction records from 2018 to 2021 for 7 diff
 Time-series transaction count graphs for each merchant across years:
 
 - **Merchant 535:** ![Merchant 535](outputs/merchant_535_transaction_counts.png)
-- **Merchant 42816:** ![Merchant 42616](outputs/merchant_42616_transaction_counts.png)
+- **Merchant 42616:** ![Merchant 42616](outputs/merchant_42616_transaction_counts.png)
 - **Merchant 46774:** ![Merchant 46774](outputs/merchant_46774_transaction_counts.png)
 - **Merchant 57192:** ![Merchant 57192](outputs/merchant_57192_transaction_counts.png)
 - **Merchant 86302:** ![Merchant 86302](outputs/merchant_86302_transaction_counts.png)
