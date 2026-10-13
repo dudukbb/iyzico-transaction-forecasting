@@ -1,4 +1,4 @@
-# 🔗 Iyzico Transaction Count Forecasting
+# 💳 Iyzico Transaction Count Forecasting
 
 This project is an end-to-end time series forecasting and machine learning project. It predicts the daily total transaction count of merchants for the last 3 months of 2020 using Iyzico historical data.
 
