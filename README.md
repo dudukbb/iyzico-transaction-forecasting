@@ -33,11 +33,14 @@ To help the machine learning model capture trends, seasonality, and complex patt
 ---
 
 ## 🛠️ Tech Stack & Prerequisites
-* **Python 3.x**
+* **Python 3.11.17**
 * **Libraries:**
-  * `pandas`, `numpy` (Data manipulation & preprocessing)
-  * `lightgbm` (Gradient boosting machine learning model)
-  * `matplotlib`, `seaborn` (Exploratory data analysis & visualization)
+  * `pandas` (v3.0.6)
+  * `numpy` (v2.4.6)
+  * `lightgbm` (v4.7.0)
+  * `matplotlib` (v3.11.2)
+  * `seaborn` (v0.13.2)
+  * `scipy` (v1.17.1)
 
 ---
 
