@@ -1,5 +1,10 @@
 # 💳 Iyzico Transaction Count Forecasting
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://iyzico-transaction-forecasting.streamlit.app/)
+
+> **Live Demo:** [Click here to test the Streamlit Dashboard live!](https://iyzico-transaction-forecasting.streamlit.app/)
+
+
 This project is an end-to-end time series forecasting and machine learning project. It predicts the daily total transaction count of merchants for the last 3 months of 2020 using Iyzico historical data.
 
 ---
