@@ -1,16 +1,16 @@
-# Iyzico Transaction Count Forecasting
+# 🔗 Iyzico Transaction Count Forecasting
 
 This project is an end-to-end time series forecasting and machine learning project. It predicts the daily total transaction count of merchants for the last 3 months of 2020 using Iyzico historical data.
 
 ---
 
-##  Project Overview & Business Problem
+##  🔗 Project Overview & Business Problem
 * **Business Problem:** iyzico provides payment infrastructure for e-commerce companies, marketplaces, and individual users. The goal of this project is to accurately forecast the daily total transaction count (`Total_Transaction`) for each merchant (`merchant_id`) for the last 3 months of 2020.
 * **Model Performance:** Achieved a successful validation error rate of **20.89% SMAPE** using a LightGBM model equipped with **Early Stopping** and optimized at the 313th iteration.
 
 ---
 
-### Database Management
+### 🔗 Database Management
 
 In this project, data is retrieved directly from a local **PostgreSQL** database to ensure data integrity and reliability.
 
@@ -24,7 +24,7 @@ In this project, data is retrieved directly from a local **PostgreSQL** database
    ```bash
    python export_from_db.py
 
-##  Dataset Story & Features
+## 🔗 Dataset Story & Features
 The dataset contains historical transaction records from 2018 to 2021 for 7 different merchants across multiple categories.
 
 * **Total Size:** 7,667 observations and 5 primary variables.
@@ -37,7 +37,7 @@ The dataset contains historical transaction records from 2018 to 2021 for 7 diff
 
 ---
 
-## Feature Engineering Methodology
+## 🔗 Feature Engineering Methodology
 To help the machine learning model capture trends, seasonality, and complex patterns, a wide range of features were engineered:
 * **Date Features:** Extracted month, day, day of year, week of year, day of week, year, weekend indicator (`is_wknd`), month start/end, quarter, and year start/end indicators. Special calendar events like **Black Friday** and **Summer Solstice** were also incorporated.
 * **Lag / Shifted Features:** Created historical lagged features ranging from 91 days up to 722 days to capture annual and periodic patterns.
@@ -46,7 +46,7 @@ To help the machine learning model capture trends, seasonality, and complex patt
 
 ---
 
-## Tech Stack & Prerequisites
+## 🔗 Tech Stack & Prerequisites
 * **Python 3.11.17**
 * **Libraries:**
   * `pandas` (v3.0.6)
