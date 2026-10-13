@@ -11,7 +11,7 @@ This project is an end-to-end time series forecasting and machine learning proje
 ---
 
 ## 📂 Dataset Story & Features
-The dataset contains historical transaction records spanning from 2018 to 2021 across multiple categories and merchant profiles. 
+The dataset contains historical transaction records from 2018 to 2021 for 7 different merchants across multiple categories.
 
 * **Total Size:** 7,667 observations and 5 primary variables.
 * **Variables Description:**
