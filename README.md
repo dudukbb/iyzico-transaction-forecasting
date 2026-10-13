@@ -66,9 +66,6 @@ The feature importance plots show that our custom-engineered features play a maj
 ---
 
 ## 🔗 Feature Engineering Methodology
-...
-
-## 🔗 Feature Engineering Methodology
 To help the machine learning model capture trends, seasonality, and complex patterns, a wide range of features were engineered:
 * **Date Features:** Extracted month, day, day of year, week of year, day of week, year, weekend indicator (`is_wknd`), month start/end, quarter, and year start/end indicators. Special calendar events like **Black Friday** and **Summer Solstice** were also incorporated.
 * **Lag / Shifted Features:** Created historical lagged features ranging from 91 days up to 722 days to capture annual and periodic patterns.
